@@ -9,7 +9,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Shop Homepage - Start Bootstrap Template</title>
+        <title>Traslados en Iguazu : Misiones : Excursiones en Cataratas : Turismo en Iguazu : Paga en Cuotas  </title>
 
         <!-- Bootstrap Core CSS -->
         <!-- jqueryLoading -  -->
