@@ -38,8 +38,7 @@
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/dist/datetimepicker/bootstrap-datetimepicker.min.css">
     </head>
 
-    <body style="background-image: url(assets/images/fondo.jpg);" >
-
+    <body style="background-image: url(<?php echo base_url(); ?>assets/images/fondo.jpg);" >
 
         <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
             <div class="container">
@@ -49,15 +48,22 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href="#page-top">Traslados Cataratas</a>
+
                 </div>
 
+                <a class="navbar-brand" href="#" style="margin-top:-15px;">
+                    <img alt="Traslados Cataratas" src="<?php echo base_url(); ?>assets/uploads/imagenes/logo/logo.png" width="448" height="153" class="d-inline-block align-top pull-left" alt="">
+
+                </a>
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="hidden">
                             <a href="#page-top"></a>
                         </li>
+
+
+
                         <li class="page-scroll">
                             <a href="<?php echo base_url(); ?>index.php/Home">Inicio</a>
                         </li>
@@ -103,6 +109,7 @@
             </div>
             <!-- /.container-fluid -->
         </nav>
+        
 
         <!-- www.tutiempo.net - Ancho:477px - Alto:91px -->
 
@@ -139,3 +146,4 @@
                 </div>
                  /.container 
             </nav>-->
+

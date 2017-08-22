@@ -13,7 +13,9 @@
         <div>
 
             <a href='<?php echo site_url('Entradas/manager_entradas') ?>'>Entradas</a> |
-            <a href='<?php echo site_url('Entradas/manager_categorias') ?>'>Categorias</a> 
+            <a href='<?php echo site_url('Entradas/manager_categorias') ?>'>Categorias</a> |
+            <a href='<?php echo site_url('Entradas/manager_excursiones') ?>'>Excursiones</a> 
+         
          
         </div>
         <div style='height:20px;'></div>  
